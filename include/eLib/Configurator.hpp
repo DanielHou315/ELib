@@ -1,12 +1,12 @@
 #ifndef _ETP20_CONFIGURATOR_
 #define _ETP20_CONFIGURATOR_
 
-#include "eLib/utils/EUnits.hpp"
+#include "eLib/utils/Units.hpp"
 using namespace okapi;
 
-#include "eLib/eDriver/EDriver.hpp"
-#include "eLib/eDriver/Actuators/EPiston.hpp"
-#include "eLib/eSLAM/localization/EOdometry.hpp"
+#include "eLib/eDriver/Driver.hpp"
+#include "eLib/eDriver/Actuators/Piston.hpp"
+#include "eLib/eSLAM/localization/Odometry.hpp"
 using namespace elib;
 
 
