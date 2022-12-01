@@ -1,4 +1,4 @@
-#include "eLib/eMotionPlanners/Profilers/ELinearInterpolater.hpp"
+#include "eLib/eMotionPlanners/Profilers/LinearInterpolater.hpp"
 
 namespace elib{
     // ----------------------------------------------------------

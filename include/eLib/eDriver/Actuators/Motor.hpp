@@ -7,6 +7,9 @@
 #include "eLib/eMotionControllers/Pid.hpp"
 using namespace elib;
 
+#define Max_600_RPM pros::E_MOTOR_GEARSET_06
+#define Max_200_RPM pros::E_MOTOR_GEARSET_18
+#define Max_100_RPM pros::E_MOTOR_GEARSET_36
 
 namespace elib{
 

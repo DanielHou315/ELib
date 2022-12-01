@@ -1,4 +1,4 @@
-#include "eLib/eDriver/Sensors/EIMU.hpp"
+#include "eLib/eDriver/Sensors/IMU.hpp"
 using namespace elib;
 
 using namespace Eigen;

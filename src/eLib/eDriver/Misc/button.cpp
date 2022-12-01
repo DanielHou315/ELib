@@ -1,5 +1,5 @@
-#include "eLib/eDriver/Misc/EButton.hpp"
-#include "eLib/utils/EMath.hpp"
+#include "eLib/eDriver/Misc/Button.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace elib;
 
 

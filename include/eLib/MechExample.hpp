@@ -1,22 +1,11 @@
 #ifndef ETP21_MECH
 #define ETP21_MECH
 
-#include "eLib/eDriver/EDriver.hpp"
-#include "eLib/utils/EMath.hpp"
-#include "eLib/eSLAM/EGPS.hpp"
+#include "eLib/eDriver/Driver.hpp"
+#include "eLib/utils/Math.hpp"
+#include "eLib/eSLAM/GPS.hpp"
 #include "eLib/Configurator.hpp"
 using namespace elib;
-
-#if USING_GPS
-#include "eGame/ETPGame.hpp"
-using namespace etp;
-#endif
-
-
-
-
-
-
 
 
 
@@ -71,7 +60,6 @@ private:
     const QAngle angleBase = 135_deg;
     const QLength baseGoal2Center = 7_in, armLength = 30_in;
     shared_ptr<OdomState> truePose;
-    MobileGoal * attachedGoal = NULL;
     #endif
 
     double highThres();
@@ -179,14 +167,7 @@ private:
     // Task
     pros::Task rearClampWatchTask;
     bool doAction = false;
-    
 
-    #if USING_GPS
-    // Mapping Related
-    const QLength goal2Center = -11_in;
-    shared_ptr<OdomState> truePose;
-    MobileGoal * attachedGoal = NULL;
-    #endif
 
 public: 
     RearClamp(PistonConfig rClampCfg

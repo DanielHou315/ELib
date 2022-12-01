@@ -1,4 +1,4 @@
-#include "eLib/eMotionPlanners/Searchers/EBaseSearcher.hpp"
+#include "eLib/eMotionPlanners/Searchers/BaseSearcher.hpp"
 using namespace elib;
 using namespace Eigen;
 

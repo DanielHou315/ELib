@@ -1,4 +1,4 @@
-#include "eLib/eMotionPlanners/Searchers/EAStar.hpp"
+#include "eLib/eMotionPlanners/Searchers/AStar.hpp"
 using namespace elib;
 
 

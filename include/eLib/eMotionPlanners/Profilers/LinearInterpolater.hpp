@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-#include "eLib/eMotionPlanners/Profilers/EBaseInterpolater.hpp"
+#include "eLib/eMotionPlanners/Profilers/BaseInterpolater.hpp"
 using namespace elib;
 
 

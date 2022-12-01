@@ -1,5 +1,5 @@
-#include "eLib/eMotionPlanners/Profilers/EBaseInterpolater.hpp"
-#include "eLib/utils/EMath.hpp"
+#include "eLib/eMotionPlanners/Profilers/BaseInterpolater.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace elib;
 using namespace okapi;
 using namespace Eigen;

@@ -41,7 +41,6 @@ private:
     QLength driveWheelSeparation; 
     QLength driveWheelRadius;
 
-
     // -----------------------------
     // Power
     // -----------------------------
@@ -74,6 +73,13 @@ private:
     // Controllers
     // -----------------------------
     list<DriveModes> driveControllerQueue;
+    /*
+        The Drive Controller Queue holds values that corresponds to specific drive modes in a list.
+        These modes may include [Manual, Hold, Pursuit, Point-Turn, etc.] to allow easier integration of different controllers. 
+        To add a controller to queue, call addAct();
+        To do next act, call
+        This also allows on-the-fly change of drive controllers, such as pursuing to a certain point, turn, and pursue in another direction
+    */
     pros::Task driveControl;
     pros::Mutex driveTaskMutex;
 
@@ -101,7 +107,9 @@ private:
     
 
     //------------------------------------------------
+    // 
     // Functions
+    // 
     //------------------------------------------------
 
     // -----------------------------
@@ -129,7 +137,6 @@ private:
 
     
 public:
-
     EDrive(const MotorConfig& LTConfig
         , const MotorConfig& LMConfig
         , const MotorConfig& LBConfig

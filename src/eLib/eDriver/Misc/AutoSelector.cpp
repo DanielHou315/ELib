@@ -1,4 +1,4 @@
-#include "eLib/eDriver/Misc/EAutoSelector.hpp"
+#include "eLib/eDriver/Misc/AutoSelector.hpp"
 using namespace elib;
 
 #include "pros/misc.hpp"

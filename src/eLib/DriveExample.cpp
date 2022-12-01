@@ -3,8 +3,8 @@ using namespace std;
 
 #include "pros/misc.hpp"
 
-#include "eLib/EDrive.hpp"
-#include "eLib/utils/EMath.hpp"
+#include "eLib/DriveExample.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace elib;
 using namespace okapi;
 
@@ -12,11 +12,11 @@ using namespace okapi;
 
 //----------------------------------------
 // Tank drive Functions
+// 
+// This example is a tank drive and its functions, 
+// If you are using other drives, apply the abstract function returns to your physical drive model. 
 //----------------------------------------
 
-#define Max_600_RPM pros::E_MOTOR_GEARSET_06
-#define Max_200_RPM pros::E_MOTOR_GEARSET_18
-#define Max_100_RPM pros::E_MOTOR_GEARSET_36
 
 
 
@@ -89,6 +89,7 @@ void EDrive::driveMoveVoltage(const double& lpow, const double& rpow){
     RB.setVoltage(rpow);
 }
 
+// A 2-speed Gearbox Transmission
 void EDrive::shiftGear(){
     transmissionPiston.actuatePiston();
     if(transmissionPiston.getStatus() == E_DRIVE_360_RPM){EController::print(1, "Speed Drive");}
@@ -328,12 +329,6 @@ PathSegment EDrive::makePath(vector<Point> pointSet, bool direction){
 
 
 
-
-
-
-
-
-
 //--------------------------------------------------------------------------
 //
 // Move Functions
@@ -382,8 +377,6 @@ void EDrive::followPath(PathSegment targetPath, int _MaxPow, double _Slew, doubl
     doNextAct();
 }
 #endif
-
-
 
 
 

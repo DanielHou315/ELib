@@ -1,4 +1,4 @@
-#include "eLib/eDriver/Sensors/EOptical.hpp"
+#include "eLib/eDriver/Sensors/Optical.hpp"
 using namespace elib;
 
 namespace elib{

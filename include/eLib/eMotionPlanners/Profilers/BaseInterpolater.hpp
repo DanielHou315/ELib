@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-#include "eLib/eMotionPlanners/Profilers/EPath.hpp"
+#include "eLib/eMotionPlanners/Profilers/Path.hpp"
 using namespace okapi;
 using namespace elib;
 

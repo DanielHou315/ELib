@@ -1,7 +1,7 @@
 #include "okapi/impl/util/rate.hpp"
 using namespace okapi;
 
-#include "eLib/eDriver/Misc/EModeSwicher.hpp"
+#include "eLib/eDriver/Misc/ModeSwicher.hpp"
 #include "eLib/Configurator.hpp"
 using namespace elib;
 

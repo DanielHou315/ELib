@@ -2,7 +2,7 @@
 #include "display/lvgl.h"
 
 #include "eLib/Configurator.hpp"
-#include "eLib/eDriver/Misc/EScreenPrinter.hpp"
+#include "eLib/eDriver/Misc/ScreenPrinter.hpp"
 using namespace elib;
 
 

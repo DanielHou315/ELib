@@ -1,5 +1,5 @@
-#include "eLib/eSLAM/localization/EEKF.hpp"
-#include "eLib/eDriver/EDriver.hpp"
+#include "eLib/eSLAM/localization/EKF.hpp"
+#include "eLib/eDriver/Driver.hpp"
 using namespace okapi;
 using namespace elib;
 

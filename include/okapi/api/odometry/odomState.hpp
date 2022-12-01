@@ -10,18 +10,24 @@
 #include <string>
 
 namespace okapi {
-struct OdomState {
-  QLength x{0_m};
-  QLength y{0_m};
-  QAngle theta{0_deg};
+  struct OdomState {
+    QLength x{0_m};
+    QLength y{0_m};
+    QAngle theta{0_deg};
 
-  /**
-   * @return A string representing the state.
-   */
-  std::string str() const;
+    /**
+     * @return A string representing the state.
+     */
+    std::string str() const;
 
-  bool operator==(const OdomState &rhs) const;
+    bool operator==(const OdomState &rhs) const;
 
-  bool operator!=(const OdomState &rhs) const;
-};
+    bool operator!=(const OdomState &rhs) const;
+
+    OdomState(QLength _x, QLength _y, QAngle _theta){
+      x = _x;
+      y = _y;
+      theta = _theta;
+    }
+  };
 } // namespace okapi

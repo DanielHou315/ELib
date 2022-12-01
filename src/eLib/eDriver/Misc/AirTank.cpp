@@ -1,6 +1,6 @@
-#include "eLib/eDriver/Misc/EAirTank.hpp"
-#include "eLib/eDriver/Misc/EController.hpp"
-#include "eLib/utils/EMath.hpp"
+#include "eLib/eDriver/Misc/AirTank.hpp"
+#include "eLib/eDriver/Misc/Controller.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace elib;
 
 namespace elib{

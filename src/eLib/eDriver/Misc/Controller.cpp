@@ -1,6 +1,6 @@
 #include "pros/rtos.hpp"
-#include "eLib/utils/EMath.hpp"
-#include "eLib/eDriver/Misc/EController.hpp"
+#include "eLib/utils/Math.hpp"
+#include "eLib/eDriver/Misc/Controller.hpp"
 using namespace elib;
 
 namespace elib{

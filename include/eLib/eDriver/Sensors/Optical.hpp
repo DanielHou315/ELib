@@ -1,8 +1,6 @@
 #ifndef E_OPTICAL
 #define E_OPTICAL
 
-
-
 #include <string>
 using namespace std;
 

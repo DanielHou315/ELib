@@ -1,5 +1,5 @@
-#include "eLib/eDriver/Sensors/ERotation.hpp"
-#include "eLib/utils/EUnits.hpp"
+#include "eLib/eDriver/Sensors/Rotation.hpp"
+#include "eLib/utils/Units.hpp"
 using namespace elib;
 
 namespace elib{

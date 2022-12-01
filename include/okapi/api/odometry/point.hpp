@@ -26,5 +26,10 @@ struct Point {
       return {y, x};
     }
   }
+  
+  Point(QLength _x, QLength _y){
+    x = _x;
+    y = _y;
+  }
 };
 } // namespace okapi

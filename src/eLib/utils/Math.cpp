@@ -1,4 +1,4 @@
-#include "eLib/utils/EMath.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace okapi;
 using namespace elib;
 

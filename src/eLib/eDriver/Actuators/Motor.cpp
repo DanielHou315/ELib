@@ -1,5 +1,5 @@
-#include "eLib/eDriver/Actuators/EMotor.hpp"
-#include "eLib/utils/EMath.hpp"
+#include "eLib/eDriver/Actuators/Motor.hpp"
+#include "eLib/utils/Math.hpp"
 using namespace elib;
 
 namespace elib{
